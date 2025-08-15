@@ -214,7 +214,7 @@ export default function ConstructionGuidePage() {
               href="tel:0908592690"
               className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-green-600 transition-colors"
             >
-              Gọi: 0908.592.690
+              Gọi: 0908592690
             </a>
           </div>
         </div>

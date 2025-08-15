@@ -22,10 +22,10 @@ export default function Footer() {
               lĩnh vực thiết kế và thi công các công trình dân dụng, công nghiệp.
             </p>
             <div className="flex space-x-4">
-              <Link href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <Link href="https://www.facebook.com/thietkexaydungnhattien" className="text-gray-400 hover:text-blue-400 transition-colors">
                 <Facebook className="h-5 w-5" />
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <Link href="https://zalo.me/0908592690" className="text-gray-400 hover:text-blue-400 transition-colors">
                 <MessageCircle className="h-5 w-5" />
               </Link>
             </div>
@@ -106,7 +106,7 @@ export default function Footer() {
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-blue-400 flex-shrink-0" />
                 <div className="text-gray-300 text-sm">
-                  <p>Hotline: 0908.592.690</p>
+                  <p>Hotline: 0908592690</p>
                   <p>ĐT: 0866.579.463</p>
                 </div>
               </div>
@@ -124,7 +124,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400 text-sm">
-            © 2024 Công ty TNHH Tư vấn Thiết kế Xây dựng Nhất Tiến. Tất cả quyền được bảo lưu.
+            © {new Date().getFullYear()} Công ty TNHH Tư vấn Thiết kế Xây dựng Nhất Tiến.
           </p>
         </div>
       </div>

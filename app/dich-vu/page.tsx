@@ -92,7 +92,7 @@ export default function DichVuPage() {
               <Button size="lg" variant="secondary" asChild>
                 <Link href="tel:0908592690">
                   <Phone className="mr-2 h-5 w-5" />
-                  Hotline: 0908.592.690
+                  Hotline: 0908592690
                 </Link>
               </Button>
               <Button

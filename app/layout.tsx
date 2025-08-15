@@ -15,12 +15,13 @@ const playfair = Playfair_Display({
   variable: "--font-playfair",
 })
 
+
 export const metadata: Metadata = {
-  title: "CÔNG TY TNHH TƯ VẤN THIẾT KẾ XÂY DỰNG NHẤT TIẾN",
+  title: "CÔNG TY TNHH TƯ VẤN THIẾT KẾ XÂY DỰNG NHẤT TIẾN | THỦ ĐỨC - HỒ CHÍ MINH",
   description:
-    "Công ty TNHH Tư vấn Thiết kế Xây dựng Nhất Tiến - Thực hiện ước mơ của bạn. Chuyên thiết kế và thi công các công trình dân dụng, biệt thự, nhà phố, cao ốc văn phòng tại TP.HCM và các tỉnh lân cận.",
+    "Công ty TNHH Tư vấn Thiết kế Xây dựng Nhất Tiến - Thực hiện ước mơ của bạn. Chuyên thiết kế và thi công các công trình dân dụng, biệt thự, nhà phố, cao ốc văn phòng tại TP.HCM và các tỉnh lân cận. Địa chỉ: 39/5C Đường 22-KP7 (Khu phố 7) - Phường Linh Đông - Thành Phố Thủ Đức - Thành phố Hồ Chí Minh",
   keywords:
-    "thiết kế xây dựng, công ty xây dựng nhất tiến, thi công nhà ở, thiết kế biệt thự, xây dựng dân dụng, xây dựng công nghiệp, thủ đức, hcm",
+    "thiết kế xây dựng, công ty xây dựng nhất tiến, thi công nhà ở, thiết kế biệt thự, xây dựng dân dụng, xây dựng công nghiệp, thủ đức, hcm, thiet ke xay dung ,mau nha pho dep,mau biet thu dep,thiet ke nha xuong,xay dung nha xuong,mau noi that dep,don gia xay dung,don gia thiet ke xay dung,mau nha dep,thiet ke nha dep, thu duc, ho chi minh, binh duong, dong nai, long thanh",
   authors: [{ name: "CÔNG TY TNHH TƯ VẤN THIẾT KẾ XÂY DỰNG NHẤT TIẾN" }],
   creator: "Nhất Tiến Construction",
   publisher: "Nhất Tiến Construction",
@@ -28,16 +29,16 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "vi_VN",
-    url: "http://thietkexaydungnhattien.com",
+    url: "https://nhattien.io.vn",
     siteName: "CÔNG TY TNHH TƯ VẤN THIẾT KẾ XÂY DỰNG NHẤT TIẾN",
     title: "CÔNG TY TNHH TƯ VẤN THIẾT KẾ XÂY DỰNG NHẤT TIẾN",
     description:
       "Công ty TNHH Tư vấn Thiết kế Xây dựng Nhất Tiến - Thực hiện ước mơ của bạn. Chuyên thiết kế và thi công các công trình dân dụng.",
     images: [
       {
-        url: "/og-image.jpg",
-        width: 1200,
-        height: 630,
+        url: "/og-bg.png",
+        width: 1000,
+        height: 135,
         alt: "CÔNG TY TNHH TƯ VẤN THIẾT KẾ XÂY DỰNG NHẤT TIẾN",
       },
     ],
@@ -47,16 +48,17 @@ export const metadata: Metadata = {
     title: "CÔNG TY TNHH TƯ VẤN THIẾT KẾ XÂY DỰNG NHẤT TIẾN",
     description:
       "Công ty TNHH Tư vấn Thiết kế Xây dựng Nhất Tiến - Thực hiện ước mơ của bạn. Chuyên thiết kế và thi công các công trình dân dụng.",
-    images: ["/og-image.jpg"],
+    images: ["/og-bg.jpg"],
   },
   alternates: {
-    canonical: "http://thietkexaydungnhattien.com",
+    canonical: "https://nhattien.io.vn",
   },
   verification: {
     google: "google-site-verification-code",
   },
   category: "Construction & Architecture",
-    generator: 'v0.app'
+  applicationName: "Nhất Tiến Construction",
+  manifest: "/manifest.json",
 }
 
 export default function RootLayout({
@@ -68,11 +70,18 @@ export default function RootLayout({
     <html lang="vi" className={`${inter.variable} ${playfair.variable}`}>
       <head>
         <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#1f2937" />
+
+        <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <meta name="apple-mobile-web-app-title" content="Nhất Tiến" />
+        <link rel="manifest" href="/manifest.json" />
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

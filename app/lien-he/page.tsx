@@ -9,7 +9,7 @@ import { Phone, Mail, MapPin, Clock, Send, Home } from "lucide-react"
 export const metadata: Metadata = {
   title: "Liên Hệ - Công ty TNHH Tư vấn Thiết kế Xây dựng Nhất Tiến",
   description:
-    "Liên hệ với Nhất Tiến để được tư vấn miễn phí về thiết kế và thi công xây dựng. Hotline: 0908.592.690, Email: tkxdnhattien@gmail.com. Địa chỉ: 39/5C Đường 22, P.Linh Đông, TP.Thủ Đức.",
+    "Liên hệ với Nhất Tiến để được tư vấn miễn phí về thiết kế và thi công xây dựng. Hotline: 0908592690, Email: tkxdnhattien@gmail.com. Địa chỉ: 39/5C Đường 22, P.Linh Đông, TP.Thủ Đức.",
   keywords: "liên hệ nhất tiến, tư vấn xây dựng, hotline xây dựng, địa chỉ công ty xây dựng thủ đức",
 }
 
@@ -57,7 +57,7 @@ export default function LienHePage() {
                   </CardHeader>
                   <CardContent>
                     <div className="space-y-2">
-                      <div className="text-lg font-semibold">0908.592.690</div>
+                      <div className="text-lg font-semibold">0908592690</div>
                       <div className="text-gray-600">Mr. Tiến - Giám đốc</div>
                       <div className="text-lg font-semibold">0866.579.463</div>
                       <div className="text-gray-600">Tư vấn kỹ thuật</div>
@@ -213,7 +213,7 @@ export default function LienHePage() {
             <Button size="lg" variant="secondary" asChild>
               <Link href="tel:0908592690">
                 <Phone className="mr-2 h-5 w-5" />
-                Gọi ngay: 0908.592.690
+                Gọi ngay: 0908592690
               </Link>
             </Button>
             <Button

@@ -62,7 +62,7 @@ export default function HeroSection() {
                 <div>
                   <span className="text-gray-600">Hotline:</span>
                   <a href="tel:0908592690" className="block font-semibold text-blue-600 hover:text-blue-700">
-                    0908.592.690
+                    0908592690
                   </a>
                 </div>
                 <div>

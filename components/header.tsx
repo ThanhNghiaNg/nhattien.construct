@@ -83,7 +83,7 @@ export default function Header() {
           <div className="flex items-center space-x-6">
             <div className="flex items-center space-x-2">
               <Phone className="h-4 w-4" />
-              <span>Hotline: 0908.592.690</span>
+              <span>Hotline: 0908592690</span>
             </div>
             <div className="flex items-center space-x-2">
               <Mail className="h-4 w-4" />

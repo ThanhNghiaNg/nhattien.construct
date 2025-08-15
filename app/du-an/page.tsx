@@ -263,7 +263,7 @@ export default function DuAnPage() {
               <Link href="/lien-he">Liên hệ tư vấn</Link>
             </Button>
             <Button size="lg" variant="outline" asChild>
-              <Link href="tel:0908592690">Hotline: 0908.592.690</Link>
+              <Link href="tel:0908592690">Hotline: 0908592690</Link>
             </Button>
           </div>
         </div>

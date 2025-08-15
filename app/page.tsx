@@ -13,7 +13,7 @@ import { Phone, Mail, MapPin, Clock, Star, Users, Award, Shield, ArrowRight, Eye
 export const metadata: Metadata = {
   title: "Công ty TNHH Tư vấn Thiết kế Xây dựng Nhất Tiến - Thực hiện ước mơ của bạn",
   description:
-    "Công ty Nhất Tiến chuyên thiết kế và thi công xây dựng: biệt thự, nhà phố, nhà xưởng, showroom. Cam kết bảo hành 1 năm, hỗ trợ 24/7. Hotline: 0908.592.690",
+    "Công ty Nhất Tiến chuyên thiết kế và thi công xây dựng: biệt thự, nhà phố, nhà xưởng, showroom. Cam kết bảo hành 1 năm, hỗ trợ 24/7. Hotline: 0908592690",
   keywords:
     "thiết kế xây dựng, thi công nhà phố, thiết kế biệt thự, xây dựng nhà xưởng, công ty xây dựng TP.HCM, Nhất Tiến",
   openGraph: {
@@ -199,7 +199,7 @@ export default function HomePage() {
                 <Phone className="h-5 w-5 text-blue-600" />
                 <div>
                   <div className="font-semibold">Hotline</div>
-                  <div className="text-sm text-gray-600">0908.592.690</div>
+                  <div className="text-sm text-gray-600">0908592690</div>
                 </div>
               </div>
               <div className="flex items-center justify-center gap-3 p-4 bg-white rounded-lg shadow-sm">

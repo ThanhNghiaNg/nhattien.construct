@@ -223,7 +223,7 @@ export default function BietThuPage() {
               className="bg-transparent border-white text-white hover:bg-white hover:text-blue-600"
               asChild
             >
-              <Link href="tel:0908592690">Hotline: 0908.592.690</Link>
+              <Link href="tel:0908592690">Hotline: 0908592690</Link>
             </Button>
           </div>
         </div>

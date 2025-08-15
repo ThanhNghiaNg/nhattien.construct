@@ -151,7 +151,7 @@ export default function GioiThieuPage() {
                 href="tel:0908592690"
                 className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
               >
-                📞 Gọi ngay: 0908.592.690
+                📞 Gọi ngay: 0908592690
               </a>
               <a
                 href="mailto:tkxdnhattien@gmail.com"
