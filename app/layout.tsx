@@ -36,7 +36,7 @@ export const metadata: Metadata = {
       "Công ty TNHH Tư vấn Thiết kế Xây dựng Nhất Tiến - Thực hiện ước mơ của bạn. Chuyên thiết kế và thi công các công trình dân dụng.",
     images: [
       {
-        url: "/og-bg.png",
+        url: "https://nhattien.io.vn/og-bg.png",
         width: 1000,
         height: 135,
         alt: "CÔNG TY TNHH TƯ VẤN THIẾT KẾ XÂY DỰNG NHẤT TIẾN",

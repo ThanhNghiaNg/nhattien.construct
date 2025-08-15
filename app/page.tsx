@@ -17,12 +17,20 @@ export const metadata: Metadata = {
   keywords:
     "thiết kế xây dựng, thi công nhà phố, thiết kế biệt thự, xây dựng nhà xưởng, công ty xây dựng TP.HCM, Nhất Tiến",
   openGraph: {
-    title: "Công ty TNHH Tư vấn Thiết kế Xây dựng Nhất Tiến",
     description: "Thực hiện ước mơ của bạn - Thiết kế và thi công xây dựng chuyên nghiệp",
-    url: "https://thietkexaydungnhattien.com",
-    siteName: "Nhất Tiến Construction",
+    url: "https://nhattien.io.vn/",
+    siteName: "CÔNG TY TNHH TƯ VẤN THIẾT KẾ XÂY DỰNG NHẤT TIẾN",
+    title: "CÔNG TY TNHH TƯ VẤN THIẾT KẾ XÂY DỰNG NHẤT TIẾN",
     locale: "vi_VN",
     type: "website",
+    images: [
+      {
+        url: "https://nhattien.io.vn/og-bg.png/og-bg.png",
+        width: 1000,
+        height: 135,
+        alt: "CÔNG TY TNHH TƯ VẤN THIẾT KẾ XÂY DỰNG NHẤT TIẾN",
+      },
+    ],
   },
 }
 
