@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "build": "next build",
+    "postbuild": "cp -r public .next/standalone/ && cp -r .next/static .next/standalone/.next && zip -r standalone.zip .next/standalone",
     "dev": "next dev",
     "lint": "next lint",
-    "start": "next start"
+    "start": "node .next/standalone/server.js"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",

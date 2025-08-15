@@ -1,23 +1,25 @@
-# Use the official Node.js 20 image (Next.js 15 requires Node.js 18 or later)
+# Use a lightweight Node.js runtime
 FROM node:20-alpine
 
 # Set working directory
-WORKDIR /app
+WORKDIR /
 
-# Copy package.json and package.lock.json (if exists)
-COPY package*.json ./
+RUN git checkout deploy
 
-# Install dependencies
-RUN npm install
+RUN git pull origin
 
-# Copy the rest of the application code
-COPY . .
+# Copy the pre-built standalone output and static files
+COPY standalone.zip ./
 
-# Build the Next.js app
-RUN npm run build
+RUN tar -xzf standalone.zip && \
+    rm standalone.zip
 
-# Expose the port Next.js will run on
+# Expose port 3000
 EXPOSE 3000
 
-# Start the Next.js app
-CMD ["npm", "start"]
+# Set environment variables
+ENV NODE_ENV=production
+ENV HOST=0.0.0.0
+
+# Start the standalone server
+CMD ["node", ".next/standalone/server.js"]
