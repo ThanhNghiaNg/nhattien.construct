@@ -4,15 +4,11 @@ FROM node:20-alpine
 # Set working directory
 WORKDIR /
 
-RUN git checkout deploy
-
-RUN git pull origin
-
 # Copy the pre-built standalone output and static files
-COPY standalone.zip ./
+COPY standalone.tar.gz ./
 
-RUN tar -xzf standalone.zip && \
-    rm standalone.zip
+RUN tar -xzvf standalone.tar.gz && \
+    rm standalone.tar.gz
 
 # Expose port 3000
 EXPOSE 3000
