@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "postbuild": "cp -r public .next/standalone/ && cp -r .next/static .next/standalone/.next && zip -r standalone.zip .next/standalone",
+    "postbuild": "cp -r public .next/standalone/ && cp -r .next/static .next/standalone/.next && tar -czvf standalone.tar.gz .next/standalone",
     "dev": "next dev",
     "lint": "next lint",
     "start": "node .next/standalone/server.js"
