@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://nhattien.io.vn/og-bg.png/og-bg.png",
+        url: "https://nhattien.io.vn/og-bg.png",
         width: 1000,
         height: 135,
         alt: "CÔNG TY TNHH TƯ VẤN THIẾT KẾ XÂY DỰNG NHẤT TIẾN",
