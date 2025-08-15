@@ -15,7 +15,7 @@ EXPOSE 3000
 
 # Set environment variables
 ENV NODE_ENV=production
-ENV HOST=0.0.0.0
+ENV HOSTNAME=0.0.0.0
 
 # Start the standalone server
 CMD ["node", ".next/standalone/server.js"]
